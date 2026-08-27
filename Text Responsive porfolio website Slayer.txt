@@ -1,6 +1,6 @@
 ========== HEADER & NAV ==========
 ✅.nav__logo
-Bianca
+Slayer
 
 ✅.nav__link
 Home - Works - My Services - Skills - Contact me
@@ -8,7 +8,7 @@ Home - Works - My Services - Skills - Contact me
 
 ========== HOME SECTION ==========
 ✅.home__subtitle
-Hi! I'm Bianca - Based on Peru
+Hi! I'm Slayer - Based on Pakistan
 
 ✅.home__title
 Creative Designer & <br>
@@ -245,7 +245,7 @@ EmailJS team
 
 ========== FOOTER ==========
 ✅.footer__title
-COLLABORATE WITH BIANCA AND START YOUR 
+COLLABORATE WITH SLAYER AND START YOUR 
 JOURNEY IN CREATIVE DESIGN TODAY.
 
 ✅.footer__links
