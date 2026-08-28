@@ -30,8 +30,6 @@
   --container-color: hsl(var(--hue), 8%, 10%);
   --border-color: hsl(var(--hue), 8%, 20%);
 
-  /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
   --second-font: "Syne", sans-serif;
   --biggest-font-size: 2rem;
@@ -43,17 +41,14 @@
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
 
-  /*========== Font weight ==========*/
   --font-regular: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
 }
 
-/*========== Responsive typography ==========*/
 @media (width >= 1150px) {
   :root {
     --biggest-font-size: 5rem;
@@ -67,7 +62,6 @@
   }
 }
 
-/*=============== BASE ===============*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -120,7 +114,6 @@ img {
   height: auto;
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1120px;
   margin-inline: 1rem;
@@ -150,7 +143,6 @@ img {
   overflow: hidden;
 }
 
-/*=============== BLOB ===============*/
 .blob-small, .blob-big {
   background-color: var(--first-color);
   border-radius: 50%;
@@ -173,7 +165,6 @@ img {
 /*=============== CUSTOM CURSOR ===============*/
 
 
-/*=============== HEADER & NAV ===============*/
 .header{
   position: fixed;
   width: 100%;
@@ -203,7 +194,6 @@ img {
   cursor: pointer;
 }
 
-/* Navigation for mobile devices <> */
 @media (width <= 1150px){
   .nav__menu{
     position: fixed;
@@ -345,11 +335,6 @@ img {
 /*=============== SCROLL UP ===============*/
 
 
-/* Show Scroll Up */
-
-
-/*=============== BREAKPOINTS ===============*/
-/* For medium devices <> */
 @media (width >= 540px){
   .nav__menu{
     width: 50%;
