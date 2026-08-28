@@ -287,7 +287,43 @@ img {
 /* Active link */
 
 
-/*=============== HOME SECTION ===============*/
+.home{
+  position: relative;
+}
+
+.home .blob-small:nth-child(1){
+  top: -2rem;
+  left: -2rem;
+}
+
+.home .blob-small:nth-child(2){
+  top: 11rem;
+  right: -4rem
+}
+
+.home__container{
+  padding-block: 2.5rem 3rem;
+  row-gap: 7rem;
+}
+
+.home__data{
+  text-align: center;
+  color: var(--white-color);
+}
+
+.home__subtitle{
+  font-size: var(--h3-font-size);
+  margin-bottom: 1rem;
+}
+
+.home__title{
+  font-size: var(--biggest-font-size);
+  margin-bottom: 0.5rem;
+}
+
+.home__title span{
+  color: var(--first-color);
+}
 
 
 /* Circular text animation */
