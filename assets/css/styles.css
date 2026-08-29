@@ -325,6 +325,33 @@ img {
   color: var(--first-color);
 }
 
+.home__box-1,
+.home__box-2,
+.home__box-3{
+  width: 210px;
+  height: 250px;
+  border-radius: 1.5rem;
+}
+
+.home__images{
+  position: relative;
+  justify-self: center;
+  margin-right: 1.5rem;
+}
+
+.home__box-1{
+  background-color: hsl(var(--hue), 25%, 32%);
+}
+
+.home__box-2{
+  background-color: var(--white-color);
+}
+
+.home__box-3{
+  background: linear-gradient(100deg,
+              hsl(var(--hue), 75%, 85%) 0%,
+              hsl(var(--hue), 75%, 60%) 100%);
+}
 
 /* Circular text animation */
 
